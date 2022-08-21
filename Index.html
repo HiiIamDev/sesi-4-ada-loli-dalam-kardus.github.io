@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesi 4 - Cuy Universe</title>
+</head>
+<style>
+    @font-face {
+        font-family: FontGweh;
+        src: url(Assets/FallingSkyBlackOblique-j37y.otf);
+    }
+
+    input {
+        padding: 20px 45%;
+        font-family: FontGweh;
+        color: white;
+        border: 2px Solid black;
+        background-color: black;
+        border-radius: 12px;
+        transition: 0.3s;
+    }
+
+    input:hover {
+        color: black;
+        background-color: white;
+    }
+</style>
+<body style="
+    margin: 0;
+    padding: 0;
+    font-family: FontGweh;
+    background-color: #262626;
+    color: white;
+
+">
+    <div class="rumahlu" style="
+        display: flex;
+        justify-content: center;
+    ">
+        <div class="container" style="
+            width: 50%;
+            border: 1px solid rgb(77, 77, 77);
+            background: #202020;
+            margin: 10px;
+            border-radius: 12px;
+        ">
+            <!-- IMG -->
+            <div class="-v" style="text-align: center;">
+                <h3 id="dummyh3">Waduh Ada Loli Dalam Kardus????</h3>
+                <p id="dummypa">Apa Yang Akan Kamu Lakukan??!?!?!</p>
+            </div>
+            <div class="img" style="display: flex; justify-content:center;">
+                <img src="Assets/pngegg.png" alt="Henta1 Loli Gak Bakal Di ciduk FBI" style="width: 60%; " id="loli">
+            </div>
+            <p id="dummy" style="text-align: center;"></p>
+            <div class="btn" style="display:flex; justify-content:center;">
+                <input type="button" value="SEGS?" onclick="func()" id="inp">
+            </div>
+            <br>
+        </div>    
+    </div>
+    <script>
+        const func = () => {
+            let loli = document.getElementById('loli')
+            let pe = document.getElementById('dummy')
+            let h3 = document.getElementById('dummyh3').remove()
+            document.getElementById('inp').remove()
+
+            pe.innerHTML = "TOBAT BRO ANJGG"
+            loli.src = 'Assets/HALAL.jpg'
+        }
+    </script>
+</body>
+</html>
